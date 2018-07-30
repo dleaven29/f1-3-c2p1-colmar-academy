@@ -1,0 +1,483 @@
+/*Universal Styles*/
+html, body{
+  font-size:16px;
+  font-family:'Times New Roman', serif;
+}
+
+/*Header Styles*/
+ header{
+  position:fixed;
+  z-index:3;
+  width:100%;
+  height:3rem;
+  padding-top:1rem;
+  background-color:white;
+  border-bottom:2px solid #5F99E8;
+}
+ .colmarLogoOptions{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   padding:0 1.5rem;
+   max-width:100%;
+ }
+ .colmarLogo{
+   display:flex;
+   align-items:flex-end;
+ }
+
+ .colmarLogo h3{
+   font-size:2rem;
+   display:inline;
+ }
+ .colmarLogo h3 span{
+   color:#DEDBD8;
+   transition:color 2s ease-in 750ms;
+ }
+
+ ul.links{
+   display:flex;
+ }
+ ul.links li.rightSpace{
+   padding-right:1rem;
+ }
+ ul.links li{
+   font-size:1.25rem;
+ }
+
+ header > nav.mobile{
+	 display:none;
+ }
+
+/*Main Element Styles*/
+main{
+  position:relative;
+  top:4rem;
+}
+/*Section Styles*/
+section.learn{
+  background-color:#DEDBD8;
+  display:flex;
+  align-items:center;
+  width:100%;
+}
+.learn-banner{
+  width:60%;
+  padding:2rem 1.5rem;
+}
+.learn-banner img{
+ width:100%;
+
+}
+.learn-text{
+  width:40%;
+}
+h1.learn-line,h3.learn-line{
+  width:85%;
+  margin-bottom:2.5rem;
+  font-weight:bold;
+}
+h1.learn-line{
+  font-size:2rem;
+}
+h3.learn-line{
+  font-size:1.2rem;
+}
+
+.button{
+  width:70%;
+  padding:0.5rem 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  background-color:#393C3D;
+  font-size:1.5rem;
+  border-radius:5px;
+  transition: background-color 750ms ease-in;
+}
+.button:hover{
+  background-color:#5F99E8;
+}
+.button a{
+  text-align:center;
+  color:white;
+}
+/*Section part 2 (It doesn't hurt to keep practicing) section*/
+.keepPracticing{
+  display:flex;
+  width:100%;
+}
+.practiceLeftBlock{
+  width:60%;
+  border-right:1px solid #DEDBD8;
+}
+.practice-banner{
+  padding:2rem 1.5rem;
+}
+.practice-banner img{
+  width:100%;
+}
+.practiceText{
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+  margin-bottom:2rem;
+}
+.practiceText h2{
+  margin-bottom:1.5rem;
+  font-size:2rem;
+  font-weight:bold;
+}
+.practiceRightBlock{
+  width:40%;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  padding-bottom:2rem;
+  padding-top:1rem;
+}
+
+.imageBlock{
+  display:flex;
+  padding:1rem 1rem;
+  border-radius:5px;
+  transition: background-color 750ms linear;
+}
+.imageBlock:hover{
+  background-color: #DEDBD8;
+  border-radius:5px;
+  border:2px solid #5F99E8;
+}
+.practice-pic{
+  width:35%;
+}
+.image-text{
+  width:65%;
+}
+.imageBlock img{
+  width:100%;
+}
+.image-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding-left:1rem;
+  font-size:1.38rem;
+}
+.image-text .top{
+  margin-top:0.5rem;
+}
+.image-text a{
+  color: #5F99E8;
+}
+#mobileAdd{
+  display:none;
+}
+/*Section 3 Start Learning*/
+section.initiative{
+  max-width:100%;
+  padding:2rem 4.5rem;
+  background-color:#DEDBD8;
+}
+div.start{
+    display:flex;
+    justify-content:center;
+    padding-bottom:2rem;
+}
+div.start h2{
+    font-size:2rem;
+    font-weight:bold;
+}
+div.initiativeImages{
+    display:flex;
+    flex-direction:column;
+    max-width:100%;
+}
+div.initiativePicsLine{
+    display:inline-flex;
+    justify-content:space-between;
+    max-width:100%;
+}
+div#initiateBottomSpace{
+  margin-bottom:2rem;
+}
+div.initiateContainer{
+    max-width:22.6rem;
+    overflow:hidden;
+    background-color:white;
+}
+div.initiateContainer.initiateRightSpace{
+  margin-right:2rem;
+}
+div.initiatePic{
+    width:100%;
+}
+div.initiatePic img{
+    max-width:100%;
+    height:auto;
+}
+div.initiateText{
+    padding:1rem 1rem;
+    font-size:1.2rem;
+}
+.initiateText > p.school{
+  margin:0.5rem 0;
+}
+.initiateMobileTabs{
+  display:none;
+}
+/*Thesis Exhibit Section */
+section.thesis{
+  width:100%;
+  padding:2rem 0;
+}
+div.thesisHeading{
+  display:flex;
+  justify-content:center;
+  padding-bottom:2rem;
+}
+div.thesisHeading h2{
+font-size:2rem;
+font-weight:bold;
+}
+div.thesisBlock{
+  display:flex;
+  width:100%;
+
+}
+div.thesisLeftBlock{
+  width:60%;
+  margin:0 1.5rem;
+}
+div.thesisVideo{
+  width:100%
+}
+div.thesisVideo >video{
+  max-width:100%;
+}
+div.thesisText{
+padding:1.5rem 0 0 0;
+}
+.thesisText h3{
+	margin-bottom:0.5rem;
+}
+div.thesisRightBlock{
+  width:40%;
+  margin-right:1.5rem;
+}
+div.rightBlock{
+  display:flex;
+  border-radius:5px;
+  background-color:#393C3D;
+  color:white;
+  transition: background-color 1s linear,
+  color 1s ease-in;
+  padding:1rem 1rem;
+}
+div.rightBlock:hover{
+  background-color: #DEDBD8;
+  color:black;
+  border-radius:5px;
+  border:2px solid #5F99E8;
+}
+div.thesisPic{
+  width:35%;
+  margin-right:1rem;
+}
+div.thesisPic img{
+  max-width:100%;
+  height:auto;
+}
+div.rightBlockText{
+  width:65%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  font-size:1.2rem;
+}
+/*Footer Section*/
+footer{
+	padding:1rem 1.5rem;
+	max-width:100%;
+}
+div.colmarBusiness{
+display:flex;
+justify-content:space-between;
+}
+div.colmarBusiness >nav ul{
+display:flex;
+list-style-type:none;
+}
+div.colmarBusiness > nav ul li{
+padding-right:0.5rem;
+}
+div.colmarBusiness > nav ul li a{
+color:black;
+text-decoration:none;
+}
+/*Smartphone Styles*/
+@media screen and (max-width:470px){
+  /*Header Section*/
+  header div.colmarLogoOptions > div.colmarLogo, nav ul.links{
+	display:none;
+  }
+  header > nav.mobile{
+   display:block;
+  }
+  header nav.mobile > ul {
+	  display:flex;
+	  justify-content:space-around;
+	  align-items:center;
+  }
+  /*Learn Something New Everyday Section*/
+  section.learn{
+	  flex-wrap:wrap;
+  }
+  div.learn-banner{
+	  width:100%;
+	  padding:0rem;
+  }
+
+div.learn-text{
+ width:100%;
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ padding:2rem 1rem;
+ }
+ div.learn-text > h1.mobileLine{
+   margin-bottom:2rem;
+   text-align:center;
+ }
+ div.learn-text > h3{
+  margin-bottom:1.5rem;
+  text-align:center;
+ }
+ /*It doesn't hurt to keep practicing Section*/
+ .practiceLeftBlock{
+   display:none;
+ }
+ .practiceRightBlock{
+   width:100%;
+ }
+ .imageBlock{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+ }
+ .practice-pic{
+   width:100%;
+ }
+ .image-text{
+   width:100%;
+ }
+ #mobileOmit{
+   display:none;
+ }
+ #mobileAdd{
+   display:block;
+ }
+ /*Start Learning Section */
+ section.initiative{
+   padding:2rem 1rem;
+   background-color:white;
+ }
+ div.start{
+   padding-bottom:1rem;
+ }
+ #initiateRemovePics{
+   display:none;
+ }
+ .initiateMobileTabs{
+   display:block;
+   width:100%;
+ }
+ .initiateMobileBlocks{
+   font-size:1.38rem;
+   background-color:#393C3D;
+   color:white;
+   text-align:center;
+   padding:1rem 0 1.5rem 1rem;
+   transition: background-color 750ms ease-in;
+ }
+ .initiateMobileBlocks:hover{
+   background-color:#5F99E8;
+ }
+ .mobileMargin{
+   margin-bottom:0.5rem;
+ }
+ /*Thesis Exhibit Section */
+ section.thesis{
+   padding:2rem 0 1.5rem 0;
+ }
+ div.thesisHeading{
+   padding-bottom:1rem;
+ }
+ div.thesisLeftBlock{
+   margin:0rem;
+   width:100%;
+ }
+div.thesisVideo{
+   width:100%;
+ }
+ div.thesisLeftBlock > div.thesisText{
+   display:none;
+ }
+ div.thesisRightBlock{
+   display:none;
+ }
+ .rightBlockText{
+   line-height:1;
+ }
+ /*Footer*/
+ nav.mobileTakeOut{
+   display:none;
+ }
+
+
+}
+/*Tablet Styles*/
+@media screen and (max-width:768px){
+  /*Header Section*/
+  header div.colmarLogoOptions > div.colmarLogo, nav ul.links{
+  display:none;
+  }
+  header > nav.mobile{
+   display:block;
+  }
+  header nav.mobile > ul {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+  /*Thesis Exhibit Section*/
+  .rightBlock{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .rightBlockText{
+    line-height:2;
+  }
+  .rightBlockText h3,.rightBlockText p{
+    font-size:1rem;
+    text-align:center;
+  }
+}
+/*Desktop Styles*/
+@media screen and (min-width:769px){
+  /*Header Section*/
+  .colmarLogo h3 span:hover{
+    color:#5F99E8;
+  }
+  ul.links li:hover{
+    text-decoration:underline solid #5F99E8;
+  }
+
+/*Thesis Exhibit Section*/
+.rightBlockText{
+  line-height:3;
+ }
+
+}
